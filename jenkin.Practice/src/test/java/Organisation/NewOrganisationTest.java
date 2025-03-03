@@ -7,7 +7,7 @@ public class NewOrganisationTest {
 	@Test(groups = "SmokeTest")
 	public void CreateOrgTest() {
 		String URL=System.getProperty("url");
-		String BROWSER=System.getProperty("browser","chrome");
+		String BROWSER=System.getProperty("browser");
 		String USERNAME=System.getProperty("username");
 		String PASSWORD=System.getProperty("password");
 		
